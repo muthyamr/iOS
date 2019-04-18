@@ -1,0 +1,15 @@
+let onGuestList = true
+var age = 20
+let name = "Raki"
+
+if onGuestList {
+    if age>=21 {
+        print("\(name), you are in....let rock the party to night")
+    }
+    if age<21 {
+        print("\(name), you have to wait "+String(21-age)+" more year to join with us")
+    }
+}
+if !onGuestList {
+    print("\(name), you are not in our guest list, go and watch us in Youtube Live")
+}
